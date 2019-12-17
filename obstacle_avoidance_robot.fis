@@ -1,0 +1,58 @@
+[System]
+Name='obstacle_avoidance_robot2'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=2
+NumRules=7
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='som'
+
+[Input1]
+Name='left_sensor'
+Range=[2 100]
+NumMFs=2
+MF1='CLOSE':'trapmf',[0 0 15 40]
+MF2='FAR':'trapmf',[25 70 400 400]
+
+[Input2]
+Name='med_sensor'
+Range=[2 100]
+NumMFs=2
+MF1='CLOSE':'trapmf',[0 0 15 40]
+MF2='FAR':'trapmf',[25 70 400 400]
+
+[Input3]
+Name='right_sensor'
+Range=[2 100]
+NumMFs=2
+MF1='CLOSE':'trapmf',[0 0 15 40]
+MF2='FAR':'trapmf',[25 70 400 400]
+
+[Output1]
+Name='left_motor'
+Range=[40 100]
+NumMFs=3
+MF1='SLOW':'trimf',[40 40 70]
+MF2='MED':'trimf',[50 70 90]
+MF3='HIGH':'trimf',[70 100 100]
+
+[Output2]
+Name='right_motor'
+Range=[40 100]
+NumMFs=3
+MF1='SLOW':'trimf',[40 40 70]
+MF2='MED':'trimf',[50 70 90]
+MF3='HIGH':'trimf',[70 100 100]
+
+[Rules]
+1 1 2, 3 1 (1) : 1
+1 2 1, 2 2 (1) : 1
+2 1 1, 1 3 (1) : 1
+1 2 2, 2 1 (1) : 1
+2 1 2, 1 3 (1) : 1
+2 2 1, 1 2 (1) : 1
+2 2 2, 3 3 (1) : 1
