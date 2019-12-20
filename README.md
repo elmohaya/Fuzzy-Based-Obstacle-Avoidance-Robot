@@ -12,7 +12,7 @@ The files in this repository are as following:
 
 - obstacle_robot_data.csv ------------- This is the data file gathered as the robot is in operation mode for further analysis and study
 
-- obstacle_avoidance_robot.fis -------- This is the initial design for the controller using MATLAB using fis format
+- obstacle_avoidance_robot.fis -------- This is the initial design for the controller using MATLAB fis format
 
 - NN_obstacle_robot.mat --------------- This is the Neural Network Model trained using MATLAB NN toolbox
 
