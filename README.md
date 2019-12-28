@@ -14,5 +14,5 @@ The files in this repository are as following:
 
 - obstacle_avoidance_robot.fis -------- This is the initial design for the controller using MATLAB fis format
 
-- NN_obstacle_robot.mat --------------- This is the Neural Network Model trained using MATLAB NN toolbox
+- NN_obstacle_robot.mat --------------- This is the Neural Network Model trained using MATLAB NN-toolbox
 
