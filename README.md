@@ -3,7 +3,7 @@
 This project represents a successful attempt to build an obstacle avoidance robot using Fuzyy Logic Theory. It was initially built for a
 course project- Intelligent Controllers in the Department of Systems Engineering in KFUPM.
 
-The files in this repository are as following:
+The files in the repository are as following:
 
 
 - Obstacle Avoidance Report.pdf ------- A full detailed report about the project starting from hardware components, design, assembly, and                                         software algorithms.
