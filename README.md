@@ -1,6 +1,6 @@
 # Fuzzy-based Obstacle Avoidance Robot
 
-This project represents a successful attempt to build an obstacle avoidance robot using Fuzyy Logic Theory. It was initially built for a
+This project represents a successful attempt to build an obstacle avoidance robot using Fuzzy Logic Theory. It was initially built for a
 course project- Intelligent Controllers in the Department of Systems Engineering in KFUPM.
 
 The files in the repository are as following:
